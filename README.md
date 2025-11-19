@@ -5,7 +5,7 @@ How to run :
 
 if running in visual studio
 Each .cs file contains its own Main() method.
-A C# project cannot run multiple entry points at the same time,so you must do the following:
+C# project cannot run multiple entry points at the same time,so you must do the following:
 Comment out the Main() methods in the other problem files.
  // static void Main() { ... }
 Open the file (Example: Problem1.cs)
